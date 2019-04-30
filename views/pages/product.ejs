@@ -9,12 +9,9 @@
   </head>
   <body>
     <% include ../partials/header %>
-    <h2>iPhone</h2>
-    <img src="/iphone.jpeg">
-    <p> Retina HD display
-      4.7-inch (diagonal) widescreen LCD Multi-Touch display with IPS technology
-      1334-by-750-pixel resolution at 326 ppi
-      1400:1 contrast ratio (typical)</p>
+    <h2> <%=product.title%> </h2>
+    <img src= "<%=product.image%>">
+    <p> <%=product.specs%> </p>
     
   </body>
   </html>
